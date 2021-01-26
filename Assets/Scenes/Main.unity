@@ -1301,6 +1301,8 @@ GameObject:
   - component: {fileID: 1052124531}
   - component: {fileID: 1052124533}
   - component: {fileID: 1052124535}
+  - component: {fileID: 1052124534}
+  - component: {fileID: 1052124536}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -1354,6 +1356,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd393e18056b9554cab8b9453d61d309, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1052124534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052124530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5844f6c28c49d494f9ea6b3f359f1ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ElementLayerString: Element
+  DocumentLayerString: Document
+  Cube404: {fileID: 2629194291204959239, guid: acdb9b780a48b8f42bdedfa065e2c852, type: 3}
+  CubeError: {fileID: 7764977643001822900, guid: f03d279bc55693846a3136edf02731d7,
+    type: 3}
 --- !u!114 &1052124535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1391,6 +1410,20 @@ MonoBehaviour:
   OnPointerDragged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1052124536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052124530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5252097e700ce3546b95513a86543abd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menu: {fileID: 0}
+  dm: {fileID: 1052124534}
 --- !u!1 &1166554177
 GameObject:
   m_ObjectHideFlags: 0

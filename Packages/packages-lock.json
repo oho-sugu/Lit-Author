@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7d21a75ea8abbc3ed43afedeb450c8d44f244ece"
+    },
     "com.microsoft.mixedreality.toolkit.examples": {
       "version": "2.5.3",
       "depth": 0,
@@ -45,6 +52,15 @@
         "com.microsoft.mixedreality.toolkit.foundation": "2.5.3"
       },
       "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry"
+    },
+    "com.ohoooo.homlcore": {
+      "version": "file:C:/Users/oho_s/repo/Orthoverse/HOMLCore",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.cysharp.unitask": "2.0.14",
+        "com.unity.textmeshpro": "2.0.1"
+      }
     },
     "com.unity.collab-proxy": {
       "version": "1.2.16",
@@ -107,6 +123,32 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.vrmc.unigltf": {
+      "version": "https://github.com/oho-sugu/UniVRM.git?path=/Assets/UniGLTF#patch-stereo-instanced",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.vrmc.vrmshaders": "0.63.2"
+      },
+      "hash": "d9f375e4839477c27e3f3825e9ee0fd7581a528f"
+    },
+    "com.vrmc.univrm": {
+      "version": "https://github.com/oho-sugu/UniVRM.git?path=/Assets/VRM#patch-stereo-instanced",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.vrmc.vrmshaders": "0.63.2",
+        "com.vrmc.unigltf": "2.0.0"
+      },
+      "hash": "d9f375e4839477c27e3f3825e9ee0fd7581a528f"
+    },
+    "com.vrmc.vrmshaders": {
+      "version": "https://github.com/oho-sugu/UniVRM.git?path=/Assets/VRMShaders#patch-stereo-instanced",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d9f375e4839477c27e3f3825e9ee0fd7581a528f"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

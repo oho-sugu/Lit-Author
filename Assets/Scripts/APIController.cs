@@ -122,7 +122,8 @@ public class APIController : MonoBehaviour
     }
 
     public void ObjectInstanciate(ObjectData data){
-        var obj = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        StaticDatas.dm.open(null, data.url, Orthoverse.OpenMode.blank, data);
+/*        var obj = GameObject.CreatePrimitive(PrimitiveType.Cube);
 
         var ocon = obj.AddComponent<ObjectController>();
         ocon.objectData = data;
@@ -136,7 +137,7 @@ public class APIController : MonoBehaviour
         var bc = obj.AddComponent<BoundsControl>();
         bc.Target = obj;
         bc.BoundsOverride = obj.GetComponent<BoxCollider>();
-        bc.BoundsControlActivation = Microsoft.MixedReality.Toolkit.UI.BoundsControlTypes.BoundsControlActivationType.ActivateManually;
+        bc.BoundsControlActivation = Microsoft.MixedReality.Toolkit.UI.BoundsControlTypes.BoundsControlActivationType.ActivateManually;*/
     }
 
     public void deleteObject(string key, GameObject obj){

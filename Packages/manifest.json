@@ -10,9 +10,14 @@
     }
   ],
   "dependencies": {
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
     "com.microsoft.mixedreality.toolkit.examples": "2.5.3",
     "com.microsoft.mixedreality.toolkit.foundation": "2.5.3",
     "com.microsoft.mixedreality.toolkit.tools": "2.5.3",
+    "com.ohoooo.homlcore": "file:C:/Users/oho_s/repo/Orthoverse/HOMLCore",
+    "com.vrmc.unigltf": "https://github.com/oho-sugu/UniVRM.git?path=/Assets/UniGLTF#patch-stereo-instanced",
+    "com.vrmc.univrm": "https://github.com/oho-sugu/UniVRM.git?path=/Assets/VRM#patch-stereo-instanced",
+    "com.vrmc.vrmshaders": "https://github.com/oho-sugu/UniVRM.git?path=/Assets/VRMShaders#patch-stereo-instanced",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ide.vscode": "1.2.3",
     "com.unity.test-framework": "1.1.22",

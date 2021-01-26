@@ -5,6 +5,8 @@ using System;
 using Microsoft.MixedReality.Toolkit.Input;
 using Microsoft.MixedReality.Toolkit.UI.BoundsControl;
 
+using Orthoverse;
+
 public class MainController : MonoBehaviour
 {
     public GameObject mrtk;
@@ -23,8 +25,14 @@ public class MainController : MonoBehaviour
         Debug.Log(StaticDatas.Location);
         Debug.Log(StaticDatas.Channel);
 
+        Shader.EnableKeyword("_DIRECTIONAL_LIGHT");
+        Shader.EnableKeyword("_HOVER_LIGHT");
+        Shader.EnableKeyword("_SPECULAR_HIGHLIGHTS");
+
         if(StaticDatas.Location == null) StaticDatas.Location = "TESTLOCATION";
         if(StaticDatas.Channel == null) StaticDatas.Channel = "TESTCHANNEL";
+
+        StaticDatas.dm = GetComponent<DocumentManager>();
 
         // Map Load
         for(int i=0; i < locationNames.Length; i++){
