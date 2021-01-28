@@ -54,13 +54,14 @@
       "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry"
     },
     "com.ohoooo.homlcore": {
-      "version": "file:C:/Users/oho_s/repo/Orthoverse/HOMLCore",
+      "version": "https://github.com/oho-sugu/HOMLCore.git#lit-version",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.cysharp.unitask": "2.0.14",
         "com.unity.textmeshpro": "2.0.1"
-      }
+      },
+      "hash": "3cf580c11fc81288345a3db53d5aef8cbc4c3944"
     },
     "com.unity.collab-proxy": {
       "version": "1.2.16",
