@@ -14,7 +14,7 @@
     "com.microsoft.mixedreality.toolkit.examples": "2.5.3",
     "com.microsoft.mixedreality.toolkit.foundation": "2.5.3",
     "com.microsoft.mixedreality.toolkit.tools": "2.5.3",
-    "com.ohoooo.homlcore": "https://github.com/oho-sugu/HOMLCore.git#lit-version",
+    "com.ohoooo.homlcore": "ssh://git@github.com/oho-sugu/HOMLCore.git#lit-version",
     "com.vrmc.unigltf": "https://github.com/oho-sugu/UniVRM.git?path=/Assets/UniGLTF#patch-stereo-instanced",
     "com.vrmc.univrm": "https://github.com/oho-sugu/UniVRM.git?path=/Assets/VRM#patch-stereo-instanced",
     "com.vrmc.vrmshaders": "https://github.com/oho-sugu/UniVRM.git?path=/Assets/VRMShaders#patch-stereo-instanced",

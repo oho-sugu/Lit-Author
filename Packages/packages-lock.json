@@ -54,7 +54,7 @@
       "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry"
     },
     "com.ohoooo.homlcore": {
-      "version": "https://github.com/oho-sugu/HOMLCore.git#lit-version",
+      "version": "ssh://git@github.com/oho-sugu/HOMLCore.git#lit-version",
       "depth": 0,
       "source": "git",
       "dependencies": {
