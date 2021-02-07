@@ -26,6 +26,13 @@ public class UpdateHandler : MonoBehaviour
         StaticDatas.selectedGO.transform.localScale = Vector3.one;
     }
 
+    public void OnReload(){
+        var od = StaticDatas.selectedGO.GetComponent<ObjectController>().objectData;
+        StaticDatas.dm.open(
+            StaticDatas.selectedGO.GetComponent<Orthoverse.Container>().GetCurrent(),
+            od.url, Orthoverse.OpenMode.self, od);
+    }
+
     public void OnDelete(){
         GameObject.Find("Main").GetComponent<APIController>().deleteObject(StaticDatas.selectedGO.GetComponent<ObjectController>().objectData.key, StaticDatas.selectedGO);
     }
